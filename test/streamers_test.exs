@@ -1,5 +1,5 @@
 defmodule StreamersTest do
-  use ExUnit.Case
+  use ExUnit.Case, async: true
   doctest Streamers
 
   test "find index file in a directory" do
